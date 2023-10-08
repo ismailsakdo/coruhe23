@@ -23,3 +23,4 @@
 1) Create Table in Google Sheet
 2) Open App Script
 3) Code of App Script [Link](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/GoogleSheetAggregateExample.gs)
+4) Import the Data and Make Summary for Hourly [Link](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/importDataSummaryHourly.gs)
