@@ -4,9 +4,13 @@
 ### Hardware
 
 ## Chapter 2
-### Software
+### Arduino Sketch
 1) Find the ADC value correspond to the voltage
 2) Find the value with MAP Function [Link](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/SerialReadAnalog.ino)
+
+### Arduino Sketch (Many Sensor)
+1) Install Sensor
+2) FInd the Sketch Example []().
 
 ## Chapter 3
 ### Cloud IOT (Google Sheet)
