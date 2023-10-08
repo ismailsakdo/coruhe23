@@ -27,4 +27,4 @@
 
 ## Chapter 5
 ### Environmental Data/ Secondary Data Analysis
-1) Import Data
+1) Import Data "OpenWeather" [HERE](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/openweatherImport.gs)
