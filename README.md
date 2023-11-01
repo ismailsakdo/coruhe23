@@ -52,7 +52,11 @@ IFS(
 
 concatenate("/appsheet/data/InspectionApps-744365623/inspectionppkp/",[id],".pdf")
 
-=====
+========RENAME ID =====
+
+SUBSTITUTE(CONCATENATE([Assessor], "-", [Date], " ", [Time], "-", [ID]), "/", "")
+
+=========
 
 SHARE LINK OF THE PUBLIC APPS: [LINK](https://www.appsheet.com/newshortcut/ccd0d390-f276-4798-a126-9ec9d98acef7)
 
