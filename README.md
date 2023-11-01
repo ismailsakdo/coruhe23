@@ -48,6 +48,8 @@ IFS(
   TRUE, "Unknown"
 )
 
+SHARE LINK OF THE PUBLIC APPS: [LINK](https://www.appsheet.com/newshortcut/ccd0d390-f276-4798-a126-9ec9d98acef7)
+
 ## Chapter 7
 #### MIT APP Inventor Image Classifier
 1) Extension [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/br.ufsc.gqs.teachablemachineimageclassifier.aix)
