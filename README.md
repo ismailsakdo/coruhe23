@@ -28,3 +28,7 @@
 ## Chapter 5
 ### Environmental Data/ Secondary Data Analysis
 1) Import Data "OpenWeather" [HERE](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/openweatherImport.gs)
+
+## Chapter 6
+#### MIT APP Inventor Image Classifier
+1) Extension [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/br.ufsc.gqs.teachablemachineimageclassifier.aix)
