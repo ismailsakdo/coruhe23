@@ -33,7 +33,7 @@
 ### AppSheet Inspection and Investigation
 #### List of function and codes:
 Code to change the TEXT into NUMERICAL:
-IF([A_Kanak2 <4 Tahun] = "Tidak", 0, IF([A_Kanak2 <4 Tahun] = "Ya", 1, ""))
+IF([HACCP1 - Food Storage] = "Poor", -1, IF([HACCP1 - Food Storage] = "Average", 1, IF([HACCP1 - Food Storage] = "Good", 2, "")))
 
 ## Chapter 7
 #### MIT APP Inventor Image Classifier
