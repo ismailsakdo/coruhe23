@@ -32,3 +32,4 @@
 ## Chapter 6
 #### MIT APP Inventor Image Classifier
 1) Extension [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/br.ufsc.gqs.teachablemachineimageclassifier.aix)
+2) Example of the Apps [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/Rubbish_App.aia)
