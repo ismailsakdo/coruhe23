@@ -40,6 +40,14 @@ IF([HACCP2 - Food Preparation] = "Poor", -2, IF([HACCP2 - Food Preparation] = "A
 
 IF([HACCP3 - Food Hygiene] = "Poor", -1, IF([HACCP3 - Food Hygiene] = "Average", 1, IF([HACCP3 - Food Hygiene] = "Good", 2, "")))
 
+CONVERT NUMERIC INTO TEXT:
+IFS(
+  [TotalScore] < 0, "Closed",
+  AND([TotalScore] >= 1, [TotalScore] <= 4), "Cleaning",
+  [TotalScore] >= 5, "Operate",
+  TRUE, "Stupid"
+)
+
 ## Chapter 7
 #### MIT APP Inventor Image Classifier
 1) Extension [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/br.ufsc.gqs.teachablemachineimageclassifier.aix)
