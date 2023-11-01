@@ -33,11 +33,8 @@
 ### AppSheet Inspection and Investigation
 #### List of function and codes:
 Code to change the TEXT into NUMERICAL:
-
 IF([HACCP1 - Food Storage] = "Poor", -1, IF([HACCP1 - Food Storage] = "Average", 1, IF([HACCP1 - Food Storage] = "Good", 2, "")))
-
 IF([HACCP2 - Food Preparation] = "Poor", -2, IF([HACCP2 - Food Preparation] = "Average", 2, IF([HACCP2 - Food Preparation] = "Good", 4, "")))
-
 IF([HACCP3 - Food Hygiene] = "Poor", -1, IF([HACCP3 - Food Hygiene] = "Average", 1, IF([HACCP3 - Food Hygiene] = "Good", 2, "")))
 
 CONVERT NUMERIC INTO TEXT:
