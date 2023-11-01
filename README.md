@@ -45,7 +45,7 @@ IFS(
   [TotalScore] < 0, "Closed",
   AND([TotalScore] >= 1, [TotalScore] <= 4), "Cleaning",
   [TotalScore] >= 5, "Operate",
-  TRUE, "Stupid"
+  TRUE, "Unknown"
 )
 
 ## Chapter 7
