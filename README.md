@@ -30,6 +30,12 @@
 1) Import Data "OpenWeather" [HERE](https://raw.githubusercontent.com/ismailsakdo/coruhe23/main/openweatherImport.gs)
 
 ## Chapter 6
+### AppSheet Inspection and Investigation
+#### List of function and codes:
+Code to change the TEXT into NUMERICAL:
+IF([A_Kanak2 <4 Tahun] = "Tidak", 0, IF([A_Kanak2 <4 Tahun] = "Ya", 1, ""))
+
+## Chapter 7
 #### MIT APP Inventor Image Classifier
 1) Extension [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/br.ufsc.gqs.teachablemachineimageclassifier.aix)
 2) Example of the Apps [LINK](https://github.com/ismailsakdo/coruhe23/blob/main/Rubbish_App.aia)
