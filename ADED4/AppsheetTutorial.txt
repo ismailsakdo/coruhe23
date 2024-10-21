@@ -1,1 +1,3 @@
 IFS([Sampah]=1,"Very Poor", [Sampah]=2, "Poor", [Sampah]= 4, "Moderate", [Sampah] = 5, "Very Good")
+
+IF([TotalRisk]>=20, "Open","Closed")
