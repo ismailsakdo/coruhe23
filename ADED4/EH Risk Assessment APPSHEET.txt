@@ -13,3 +13,8 @@ IF([Final Risk Score] >= 1120, "Good",
 IF([Final Risk Score] >= 1020, "Moderate", 
 IF([Final Risk Score] >= 120, "Poor", 
 IF([Final Risk Score] >= 20, "Very Poor","Closed"))))
+
+//Create Function for PDF merging
+concatenate("/appsheet/data/EHRiskAssessment-744365623/ehraOutput/",[ID],".pdf")
+
+// "EHRiskAssessment-744365623" is your own Apps
