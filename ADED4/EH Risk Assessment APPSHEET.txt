@@ -18,3 +18,7 @@ IF([Final Risk Score] >= 20, "Very Poor","Closed"))))
 concatenate("/appsheet/data/EHRiskAssessment-744365623/ehraOutput/",[ID],".pdf")
 
 // "EHRiskAssessment-744365623" is your own Apps
+
+//Copy paste this function in ACTION of PDF External Files inside the behaviour
+
+NOT(ISBLANK([pdf]))
