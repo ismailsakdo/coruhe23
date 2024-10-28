@@ -16,3 +16,6 @@ CASE WHEN [Your Column] > [Threshold Value] THEN 1 ELSE 0 END
 
 //===Link for WIAQDATA
 https://docs.google.com/spreadsheets/d/1MKoaRoqYt_BWbdLRvFClNtFZv4byGPaWPqY-OHW4Cbo/edit?gid=0#gid=0
+
+//Import Range Data From Others Google Sheet
+=IMPORTRANGE("https://docs.google.com/spreadsheets/d/175cwfZbpFlpoOxsNelsp0gn7OshZ_z0OfIFhcBH3buk/edit?gid=0#gid=0","Sheet1!A:F")
