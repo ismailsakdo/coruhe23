@@ -7,3 +7,8 @@ IF([Water Quality]="Good",1000, IF([Water Quality]="Poor",0,""))
 
 //Calculate the Score for 5 Items
 [Food Handlers]+[Kitchen]+[Toilet]+[Waste]+[Storage]
+
+// Calculate the Final Risk Score 5 items + Food and Water
+IF([Final Risk Score] >= 1120, "Good", 
+  IF([Final Risk Score] >= 1020, "Moderate", 
+    IF([Final Risk Score] >= 120, "Poor", "Very Poor")))
