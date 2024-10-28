@@ -1,3 +1,9 @@
 //Change the IF statement for ENUM type
 
-IF([Food Quality]="Good",10, IF([Food Quality]="Poor",0,""))
+IF([Food Quality]="Good",100, IF([Food Quality]="Poor",0,""))
+
+IF([Water Quality]="Good",1000, IF([Water Quality]="Poor",0,""))
+
+
+//Calculate the Score for 5 Items
+[Food Handlers]+[Kitchen]+[Toilet]+[Waste]+[Storage]
