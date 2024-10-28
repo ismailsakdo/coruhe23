@@ -1,0 +1,3 @@
+//Change the IF statement for ENUM type
+
+IF([Food Quality]="Good",10, IF([Food Quality]="Poor",0,""))
